@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>UFO Finder</title>
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAArlBMVEX///+OoqyuvMIotPQCmOJ4jppUbnpOwPR/0vgAluGrucBHvvR0i5dMaHVVbXeGnKbO1tpcdYGisrrCzNHz+v5xzPeBlqFrgo2Xp6+6xsvp7O7h5ug8tO729/jY3uHv8vPi8/xgxvZinbwwi7xssdNAX21LeI5Bgqgmj8dRps4XltlZbXJUgJZFe5dSeIkSnuWu4frF6fsdqOyay+F+yOqT1vhtlauHrsJ7rsd5na8BbHMRAAAEeElEQVRoge2Z6XLiOhBGMSAWWyBbTryCgVmS2VnuMHfu+7/Y1WIbY8u4xZKpqdKp/CPF0dfdWlLp9QwGg8FgMBgMBoPhL+eJ8we0+93xOGEcj7v9+g0XsN4fnycVnie7/dvo18dJk41zXL+l+VmQu8fO+PjY7E+7wrtxFgPJYryZTMYMZ7x/oLoIvXEGNRZjYX9c9HVuXtTNg+10K+zO5EFyqd40xIzhcDo9OFz+vH6ceqxSb4cCHt3ZPCC5VDcanccWTAci+d3VT8d29WFYyA9i4ODfulwlWeYKsixLk9VyqfitXbuaTVohH4rk0K2W+n27Sr/PfmLfZYuoLmF/QT0YVhDjDmp5GnObArkQtga5hKfWCa+WnFd96wCrnqnFtTX0fVdUvEV9Flu2fLzuVK+6zOUKLlX8MDyXL0DB3c7YOf/wE7wtdmXSZNVBwX1o7p8XYp+XvAi+u5eb/rwQ+1B3D7f8dLtXzcl/7UNeLzkP7gCKnsDcNsK/W4e8UXJ5tHYXPQa5I4zQ79bYTffwwC/TLncCcgeI8a55abfElg3vvlEgHbeR4JdS3pw0Dmt491W6hFQ9kHL0GTRpHL7L1p3BIUcbzd2q6MrYU5gb1PJS3ui6uuRQdy8FtJwirLYr1XB3L4UkJ1iVXR1bww3baRZCTbt60uQDAuaGyWmAG3a1GbjHcjIKsUeoYv/FdtxBHXsKO1sKoggiP7ejd19aSn7QeqyukAW6V2yrYsfzl/df2kat8y6pVB0HoLr36Sm7N5rPR9+benGH/uvC5T5GsLqfsnsjxnz+o6aXjyaL0ERDjgnwLWGL7OEoZz6fv7x+Orn59f3BYsCjuxgcnR82Mnap//r1x+v7T6IALPVnwt0a0TMMj87P2apcxmcNePn++u2b51kS4kPlacCiW1C3ZQVhTZ8vYD5DViG3odFX7HkEHHg7Et+t0DM8Yp0Ad73PpghD9jotvzvAXt0fVtQs+gooz9iNxWau007Pvj7AYdUdWGefWhlQvrRDhDon3rYa8AV4nDBofBSr/qRXRuc3Fg4u2mnTfQn4blvxriNMLgxdpOe2NEYuizA/N0lbdkXJO+lD67705VOhZcNpllxAKHTe2czx6Fhdef2SC1KovJfI5yk7bOo77prYIrrGxZpSLO21/X5lbAb4fO+VQ4cCq1L6ayatINaQF3aMTo2/tuQcoiVn9vyhQvLSX19yfXnRd9Z4XvpbSm7pDZwgYUedKD2bu1tKLoBeLSVLn+ThFZeFHhH4kDnZXcofNvy29BDpVrRC+tpuRhITLB8KXniLXj+4DI9ns+J5cm3ttcetJKXhx1KPuk0K7GvdPb7lwzL9Nb2nN7h57at63epfNWxVVud6jfhEe4er0mc0HFX9oPzklnafkcaExZf+GfPjoKsA4NcThGUaW97HYvhnogAtCyCEwl8vYBKfohlbQNkBVoJ8CSTHorF7z8xnLNkC+Mk3q+IFccpIlsp/+t15AavE9fs2pVEUUTt2k8crDQaDwWAwGAwGg0Gb/wHW7XPWW50LIgAAAABJRU5ErkJggg==">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            <img class="nav-ufo" src="static/images/ufo.svg">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1> UFO Sightings </h1>
+      <p>  The Truth is Out There  </p>
+    </div>
+    <div class="container">
+      <div class="row margin-top-50">
+        <div class="col-md-3">
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3 style="color:orange;"><strong> Search ONE Option at the Time </strong></h3></div>
+              <div class="panel-heading"><h4 style="color:tomato;"><strong> Exact Match & Case Sensitive </strong> </h4></div>
+              <div class="panel-body">
+          <!-- Form Search -->
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+					<!------Date----->	
+                      <p> Filter by Date: </p>  
+                      <input class="form-control" id="datetimevar" type="text" placeholder="m/d/yyyy or m/dd/yyyy">   
+                      <br>
+                      <button id="date-bt" type="submit" class="btn btn-warning">Filter</button>
+                      <hr>
+                      
+        	<!------City----->	
+              		<p> Filter by City:</p>
+                     <input class="form-control" id="cityvar" type="text" placeholder="type city">  
+                     <br>
+				            <button id="city-bt" type="submit" class="btn btn-warning">Filter</button> 
+                      <hr>
+        	<!------State----->	
+                    <p> Filter by State:</p>
+                    <input class="form-control" id="statevar" type="text" placeholder="type state">
+                    <br>
+                    <button id="state-bt" type="submit" class="btn btn-warning">Filter</button>
+                    <hr>
+          <!------Country----->	
+              		<p> Filter by Country:</p>
+                  <input class="form-control" id="countryvar" type="text" placeholder="type country">
+                  <br>
+			        	  <button id="country-bt" type="submit" class="btn btn-warning">Filter</button>
+                  <hr>           
+        	<!------Shape----->	
+              		<p> Filter by Shape:</p>
+                  <input class="form-control" id="shapevar" type="text" placeholder="type shape">
+                  <br>
+                 <button id="shape-bt" type="submit" class="btn btn-warning">Filter</button>
+                 <hr>
+          <!------Reset Data----->	
+                 <button id="reset-bt" type="submit" class="btn btn-primary btn-lg">Reset Data</button>
+                    
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="col-md-9">
+          <div id="table-area" class="">
+            <table id="ufo-table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">Date</th>
+                  <th class="table-head">City</th>
+                  <th class="table-head">State</th>
+                  <th class="table-head">Country</th>
+                  <th class="table-head">Shape</th>
+                  <th class="table-head">Duration</th>
+                  <th class="table-head">Comments</th>
+                </tr>
+              </thead>
+              <tbody>
+			  </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+	<footer class="footer">
+      <span class="bottom">UFO Sightings by Adriana Kopf</span>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>
