@@ -36,8 +36,8 @@ submit.on("click", function() {
           // Prevent the page from refreshing automatically
             d3.event.preventDefault();
 
-          // Select the input element on html page id:datetimevar 
-            var inputElement = d3.select("#datetimevar");
+          // Select the input element on html page id:datetime
+            var inputElement = d3.select("#datetime");
 
           // Get the value property of the input element
             var inputValue = inputElement.property("value");
@@ -59,7 +59,7 @@ submit.on("click", function() {
             d3.event.preventDefault();
 
             // get the city info
-            var inputCityElement = d3.select("#cityvar");
+            var inputCityElement = d3.select("#city");
             var inputCityValue = inputCityElement.property("value");
             //  console.log(inputCityValue);
             //  console.log(tableData);
@@ -79,7 +79,7 @@ submit.on("click", function() {
           d3.event.preventDefault();
 
           // get the city info
-          var inputStElement = d3.select("#statevar");
+          var inputStElement = d3.select("#state");
           var inputStValue = inputStElement.property("value");
             //  console.log(inputStValue);
             //  console.log(tableData);
@@ -99,7 +99,7 @@ submit.on("click", function() {
           d3.event.preventDefault();
 
           // get the country info
-          var inputCtryElement = d3.select("#countryvar");
+          var inputCtryElement = d3.select("#country");
           var inputCtryValue = inputCtryElement.property("value");
             //  console.log(inputCtryValue);
             //  console.log(tableData);
@@ -120,7 +120,7 @@ submit.on("click", function() {
             d3.event.preventDefault();
 
           // get the city info
-          var inputShElement = d3.select("#shapevar");
+          var inputShElement = d3.select("#shape");
           var inputShValue = inputShElement.property("value");
             //  console.log(inputShValue);
             //  console.log(tableData);
