@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic Challenges</title>
+</head>
+<body>
+<h1> Chanllenges</h1>
+
+<!-- //-----------------------CHALLENGE 1------------------------------
+ -->
+  <!--   Create an HTML file and set the title to "JavaScript Basic Challenges: Challenge 1"
+Then add an <h1> and <h2> with that information.Then add a script tag before the closing
+</body> tag and between the script tags create two variables. Assign your first name to
+one and your last name to the other, then make JavaScript display the value of each
+variable in the console. -->
+
+<!-- 
+<script>
+var firstName = "First name";
+var lastName = "Last name";
+console.log (firstName);
+consolo.log (lastName);
+</script> -->
+
+
+<!-- //-----------------------CHALLENGE 2------------------------------
+ -->
+ <!-- 
+Use plus signs (+) and your two variables to
+write your first name and last name to the
+console on one line with a space between
+your names. -->
+
+<!-- 
+<script>
+var firstName = "NAME";
+var lastName = "LAST_NAME";
+console.log(firstName + " " + lastName);
+</script> -->
+ 
+
+<!-- -----------------------CHALLENGE 3------------------------------
+ -->
+<!-- 
+Add one more variable called "adjective" and
+assign it a value that describes you. Use the
+console to display a sentence that includes all
+three variables. This time use a template
+literal (tick marks, and ${} around variables). -->
+
+<!-- 
+<script>
+var firstName = "Will";
+var lastName = "Smith";
+var adjective = 'cool'
+console.log(`${firstName} ${lastName} is not ${adjective}.`);
+</script> -->
+
+<!-- -----------------------CHALLENGE 4------------------------------
+ -->
+<!-- Write script that prompts the user for their name, and
+then display a sentence in the console that greets the
+user by name and welcomes them. -->
+
+<!-- <script>
+var name = prompt ("What is your name?", "");
+console.log (`Hello ${name}, welcome to JavaScript course!`);
+</script> -->
+
+
+<!-- -----------------------CHALLENGE 5------------------------------
+ -->
+<!--  use prompt and ask the user for a
+ whole number. If they type in a number less
+ than 10, have the console log report, "You
+ entered a number smaller than 10",
+ otherwise, send "You entered a big number"
+ to the console. -->
+
+<!-- <script>
+var number = prompt("Enter a number: ", " ");
+if (number < 10) {
+    console.log("You entered a number smaller then 10.");
+} else {
+    console.log("You entered a big number!");
+}
+</script> -->
+
+
+<!-- -----------------------CHALLENGE 6------------------------------
+ -->
+
+<!-- if a user types
+something other than a number, the console
+tells us they entered a big number. In this
+challenge, fix that so that if a user types
+something other than a number, the console
+displays a message that says there was an
+error -->
+
+<!-- <script>
+    var userNumber = prompt("Enter a number: ", " ");
+        if (number < 10) {
+        console.log("You entered a number smaller then 10.");
+    } else if (userNumber > 9){
+        console.log("You entered a big number!");
+    }
+    else {
+        console.log("ERROR! You did not enter a number!");
+    }
+</script> -->
+
+
+<!-- -----------------------CHALLENGE 7------------------------------
+ -->
+<!-- user types a number less than 10, use a loop to print out the
+numbers from zero to 9 in the console. -->
+
+<!-- <script>
+var userNumber = prompt("Enter a whole number:" , " ");
+if (userNumber < 10){
+    console.log ("Your entered a number less than 10.")
+    for (var i=0; i<10; i++){
+        console.log (`Here is a ${i}`);
+    }
+} else if (userNumber > 9){
+        console.log("You entered a big number!");
+    }
+    else {
+        console.log("ERROR! You did not enter a number!");
+    }
+</script> -->
+
+
+<!-- -----------------------CHALLENGE 8------------------------------
+ -->
+<!--  if the user types a number
+ less than 10, update the loop from the last
+ challenge so that the console indicates the
+ number the user entered. -->
+
+<script>
+var userNumber = prompt("Enter a whole number:" , " ");
+if (userNumber < 10){
+    console.log ("Your entered a number less than 10.")
+    for (var i=0; i<10; i++){
+       if (userNumber==i){
+           console.log (`Here is a ${i} <--- This is your number`);
+       }
+       
+        console.log (`Here is a ${i}`);
+    }
+} else if (userNumber > 9){
+        console.log("You entered a big number!");
+    }
+    else {
+        console.log("ERROR! You did not enter a number!");
+    }
+</script>
+
+
+</body>
+</html>
